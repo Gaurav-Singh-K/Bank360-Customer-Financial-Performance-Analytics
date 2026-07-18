@@ -1,4 +1,4 @@
-# 🏦 Bank Customer Churn & Financial Performance Analysis
+# 🏦 Bank Customer Churn  Analysis
 
 ## 📌 Project Overview
 
@@ -77,7 +77,7 @@ The dataset contains customer-level banking information, including:
 
 Created business-driven features including:
 
-* Risk Profile
+* Credit Score Group
 * Age Group
 * Tenure Group
 
@@ -89,7 +89,6 @@ Key performance indicators developed include:
 
 * Total Customers
 * Active Customers
-* Inactive Customers
 * Male vs Female Customers
 * Credit Card Holders
 * Risk Profile Distribution
@@ -144,9 +143,9 @@ Risk Analysis
 
 # 📈 Key Business Insights
 
-* Customer churn varies across geographical regions.
-* Active members exhibit significantly stronger customer retention.
-* Credit score alone is not sufficient to explain churn behavior.
+* Germany represents the highest-risk regional market, exhibiting the highest churn rate despite leading in both average account balance and average credit score. Similarly, new customers represent a volatile, high-value segment with elevated churn rates alongside high average balances and strong credit profiles.
+* The 51–60 age demographic represents a critical attrition point, showing the highest churn rate coupled with the highest average balance.
+* ustomers utilizing only one product hold the majority of the total balance amount and exhibit high churn. Due to the massive size of this cohort, it poses the highest financial risk to the business.
 * Customer segmentation based on age and tenure provides valuable insights into retention strategies.
 * High-value inactive customers represent an opportunity for targeted engagement campaigns.
 * Product adoption and customer activity play an important role in long-term customer loyalty.
@@ -155,13 +154,20 @@ Risk Analysis
 
 # 💡 Business Recommendations
 
-* Launch personalized retention campaigns for inactive customers.
-* Prioritize engagement strategies for high-value inactive customers.
-* Develop region-specific customer retention initiatives.
-* Increase cross-selling opportunities for customers with fewer banking products.
-* Monitor high-risk customer segments using credit score and account activity indicators.
-* Design loyalty programs to improve long-term customer engagement.
+Prioritize the German Market:
+Launch targeted retention campaigns in Germany. Because this market has the highest average balances and zero zero-balance accounts, mitigating churn here yields the highest immediate return on investment (ROI).
 
+Optimize Onboarding for New High-Value Customers:
+Introduce structured introductory benefits, personalized onboarding flows, or loyalty rewards for new customers to stabilize retention during their high-risk initial lifecycle phase.
+
+Execute a Product Cross-Selling Strategy:
+Develop targeted cross-selling initiatives (e.g., moving single-product users to two products) to deepen customer engagement, secure the large volume of capital held by this group, and lower their propensity to churn.
+
+Investigate Mature Demographic Pain Points:
+Conduct targeted qualitative research or customer care outreach for the 51–60 age bracket to identify and resolve specific service friction points causing high-balance attrition.
+
+Address Capital Inactivity in France & Spain:
+Design regional financial products or high-yield incentive structures specifically for France and Spain to encourage zero-balance customers to deposit capital.
 ---
 
 # 🚀 Future Improvements
@@ -170,7 +176,6 @@ Future versions of this project will include:
 
 * Interactive Power BI Dashboard
 * SQL-based business analysis
-* Customer segmentation using clustering
 * Customer churn prediction using Machine Learning
 * Executive dashboard for business stakeholders
 
